@@ -1,6 +1,6 @@
 import { ReactComponentElement } from "react"
 
-const Header = () => {
+const Logo = () => {
     return <header>Heeee</header>
 }
-export default Header
+export default Logo

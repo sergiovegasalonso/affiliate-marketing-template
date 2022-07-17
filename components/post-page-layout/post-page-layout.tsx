@@ -1,6 +1,6 @@
 import { ReactComponentElement } from "react"
 
-const Header = () => {
+const PostPageLayout = () => {
     return <header>Heeee</header>
 }
-export default Header
+export default PostPageLayout
