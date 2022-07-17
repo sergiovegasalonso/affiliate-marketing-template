@@ -10,7 +10,7 @@ const Home: NextPage = ({ allPostsData }: any) => {
   return (
     <Layout home>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>{siteTitle}</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }: any) => (
             <li className={utilStyles.listItem} key={id}>
