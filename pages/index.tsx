@@ -14,7 +14,7 @@ const Home: NextPage = ({ allPostsData }: any) => {
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }: any) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
+              <Link href={`/post/${id}`}>
                 <a>{title}</a>
               </Link>
               <br />
